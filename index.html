@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>E-commerce Website</b></title>
+    <style>
+        .items{
+         height: 420px;
+         width: 300px;
+        background-color:wheat;
+        border-radius: 30px;
+        border: 5px solid;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+
+      
+        }
+        .items img{
+            border-radius: 30px;
+            border: 5px solid;
+            height: 300px;
+            width: 250px;
+       
+        }
+        #bag{
+            display: flex;
+            justify-content: space-evenly;
+            padding-bottom: 45px;
+            transition: all 5s ease-in-out;
+            
+            
+        }
+        
+        #bag:hover .items{
+            transform: scale(0.8);
+         }
+
+        #bag .items:hover{
+            transform: scale(1.1);
+            background-color: burlywood;
+         }
+        #head{
+            text-align: center;
+            padding-bottom: 30px;
+            background-color: aqua;
+            font-size: 3rem;
+            
+        }
+
+        #foo{
+            background-color: aqua;
+            text-align: center;
+            padding-bottom: 10px;
+            font-size: large;
+     
+        
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="head" >E-Commerce Website</h1>
+    <div id="bag">
+    <div class="items">
+    <h1>.</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lhZZiCYr-QmFuw2gCt56u9rzvq0k5ZQBnw&s"/>
+    <h1>watch</h1>
+    </div>
+
+    <div class="items">
+    <h1>.</h1>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lhZZiCYr-QmFuw2gCt56u9rzvq0k5ZQBnw&s"/>
+    <h1>Watch</h1>
+    </div>
+
+    <div class="items">
+    <h1>.</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lhZZiCYr-QmFuw2gCt56u9rzvq0k5ZQBnw&s"/>
+    <h1>Watch</h1>
+    </div>
+
+    <div class="items">
+    <h1>.</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-lhZZiCYr-QmFuw2gCt56u9rzvq0k5ZQBnw&s"/>
+
+    <h1>Watch</h1>
+    </div>
+    </div>
+
+    <footer id="foo"><h1>Developed by Guna</h1></footer>
+
+</body>
+</html>
